@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "25.0.1"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         applicationId "com.sh1r0.caffe_android_demo"
-        minSdkVersion 21
-        targetSdkVersion 23
+        minSdkVersion 17
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
     }
@@ -20,5 +20,5 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
